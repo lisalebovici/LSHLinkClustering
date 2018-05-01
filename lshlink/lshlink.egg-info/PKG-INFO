@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: lshlink
+Version: 1.1.0
+Summary: An implementation of locality-sensitive hashing for agglomerative hierarchical clustering
+Home-page: https://github.com/lisalebovici/LSHLinkClustering
+Author: Walker Harrison, Lisa Lebovici
+Author-email: walker.harrison@duke.edu, lisa.lebovici@duke.edu
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3

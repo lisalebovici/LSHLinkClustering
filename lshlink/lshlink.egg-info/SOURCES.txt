@@ -1,0 +1,8 @@
+README.txt
+lshlink.py
+run_lshlink.py
+setup.py
+lshlink.egg-info/PKG-INFO
+lshlink.egg-info/SOURCES.txt
+lshlink.egg-info/dependency_links.txt
+lshlink.egg-info/top_level.txt
