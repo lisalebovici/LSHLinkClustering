@@ -10,3 +10,11 @@ clusters3, Z3 = lsh.LSHLink(gds, A = 1.4, l = 10, k = 100, dendrogram = True, se
 clusters4, Z4 = lsh.LSHLink(gds, A = 1.2, l = 10, k = 100, dendrogram = True, seed1 = 12, seed2 = 6)
 end = datetime.datetime.now()
 print(end - start)
+
+C1 = cophenet(Z1)
+C2 = cophenet(Z2)
+C3 = cophenet(Z3)
+C4 = cophenet(Z4)
+print(np.corrcoef(C1, C2)[0,1])
+print(np.corrcoef(C1, C3)[0,1])
+print(np.corrcoef(C1, C4)[0,1])
