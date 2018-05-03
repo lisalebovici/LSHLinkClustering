@@ -7,7 +7,7 @@ To download, please run `pip install --index-url https://test.pypi.org/simple/ l
 
 To import the library, enter `import lshlink` in a python interpreter.
 
-The primary function in `lshlink` is `LSHLink()`, which compute cluster assignments and (optionally) a linkage matrix for a given dataset. The function documentation is given below:
+The primary function in `lshlink` is `LSHLink()`, which computes cluster assignments and (optionally) a linkage matrix for a given dataset. The function documentation is given below:
 
 **Parameters:**
 
