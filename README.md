@@ -9,9 +9,8 @@ To import the library, enter `import lshlink` in a python interpreter.
 
 The primary function in `lshlink` is `LSHLink()`, which compute cluster assignments and (optionally) a linkage matrix for a given dataset. The function documentation is given below:
 
------------
-####Parameters:
------------
+**Parameters:**
+
 `data (ndarray)`: d-dimensional array of size n
 
 `A (float)`: increase ratio for r (must be > 1)
@@ -30,9 +29,8 @@ The primary function in `lshlink` is `LSHLink()`, which compute cluster assignme
 
 `seed2 (int)`: [optional] specify seed for sampling of hashed bits, if reproducibility is desired
 
---------
-####Returns:
---------
+**Returns:**
+
 `clusters (array)`: size n array containing cluster assignments for each point
 
 `Z (ndarray)`: if dendrogram = True; (n-1) x 4 linkage matrix
